@@ -3,6 +3,8 @@ kind: RadixApplication
 metadata:
   name: config-test
 spec:
+  build:
+    useBuildKit: true
   environments:
     - name: dev
       build:
