@@ -15,3 +15,7 @@ spec:
         - name: http
           port: 5000
       publicPort: http
+      resources:
+        requests:
+          cpu: 10m
+          memory: 20M
