@@ -7,23 +7,23 @@ spec:
     useBuildKit: true
   environments:
     - name: nils
-      build:
-        from: feat/*
+      # build:
+      #   from: feat/*
     - name: richard
-      build:
-        from: feat/*        
+      # build:
+      #   from: feat/*        
     - name: dev
-      build:
-        from: main
+      # build:
+      #   from: main
     - name: qa
-      build:
-        from: qa
+      # build:
+      #   from: qa
     - name: qa2
-      build:
-        from: qa        
+      # build:
+      #   from: qa        
     - name: prod
-      build:
-        from: release
+      # build:
+      #   from: release
   components:
     - name: api
       ports:
